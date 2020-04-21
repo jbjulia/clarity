@@ -1,5 +1,5 @@
 ' This program sends unobtrusive keystrokes to keep your screen awake
-' during inactivity, on positions that may contain privileged restrictions.
+' during inactivity, on positions that may contain privilege restrictions.
 
 Sub initClarity()
 	Dim i: i = 0
