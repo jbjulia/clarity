@@ -16,7 +16,7 @@ Sub initClarity()
 		If Err.Number <> 0 Then
 			handleErrors
 		Else:
-			WScript.SendKeys ("{SCROLLLOCK 2}") ' Simulate Scroll Lock keystroke
+			WshShell.SendKeys ("{SCROLLLOCK 2}") ' Simulate Scroll Lock keystroke
 			WScript.Sleep (60 * 1000)  ' Sleep for 60 seconds
 			i = i + 1
 		End If
